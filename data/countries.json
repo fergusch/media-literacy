@@ -1,0 +1,208 @@
+{
+    "United States of America": {
+		"Alpha2": "us",
+		"PressRank": 48,
+		"Profile": "https://mediabiasfactcheck.com/united-states-media-profile/"
+	},
+    "Sweden": {
+		"Alpha2": "se",
+		"PressRank": 3,
+		"Profile": "https://mediabiasfactcheck.com/sweden-media-profile/"
+	},
+    "India": {
+		"Alpha2": "in",
+		"PressRank": 140,
+		"Profile": "https://mediabiasfactcheck.com/india-media-profile/"
+	},
+    "South Africa": {
+		"Alpha2": "sa",
+		"PressRank": 31,
+		"Profile": "https://mediabiasfactcheck.com/south-africa-media-profile/"
+	},
+    "Canada": {
+		"Alpha2": "ca",
+		"PressRank": 13,
+		"Profile": "https://mediabiasfactcheck.com/canada-media-profile/"
+	},
+    "United Kingdom": {
+		"Alpha2": "gb",
+		"PressRank": 33,
+		"Profile": "https://mediabiasfactcheck.com/united-kingdom-media-profile/"
+	},
+    "People\"s Republic of China": {
+		"Alpha2": "cn",
+		"PressRank": 177,
+		"Profile": "https://mediabiasfactcheck.com/china-media-profile/"
+	},
+    "Netherlands": {
+		"Alpha2": "nl",
+		"PressRank": 4
+	},
+    "Finland": {
+		"Alpha2": "fi",
+		"PressRank": 2,
+		"Profile": "https://mediabiasfactcheck.com/finland-media-profile/"
+	},
+    "Australia": {
+		"Alpha2": "au",
+		"PressRank": 21,
+		"Profile": "https://mediabiasfactcheck.com/australia-media-profile/"
+	},
+    "Israel": {
+		"Alpha2": "il",
+		"PressRank": 88
+	},
+    "Argentina": {
+		"Alpha2": "ar",
+		"PressRank": 57
+	},
+    "Latvia": {
+		"Alpha2": "lv",
+		"PressRank": 24
+	},
+    "Panama": {
+		"Alpha2": "pa",
+		"PressRank": 79
+	},
+    "Cyprus": {
+		"Alpha2": "cy",
+		"PressRank": 28
+	},
+    "Qatar": {
+		"Alpha2": "qa",
+		"PressRank": 125
+	},
+    "Taiwan (Repubilc of China)": {
+		"Alpha2": "tw",
+		"PressRank": 42
+	},
+    "Pakistan": {
+		"Alpha2": "pk",
+		"PressRank": 142
+	},
+    "Germany": {
+		"Alpha2": "de",
+		"PressRank": 13
+	},
+    "France": {
+		"Alpha2": "fr",
+		"PressRank": 32
+	},
+    "Turkey": {
+		"Alpha2": "tr",
+		"PressRank": 157,
+		"Profile": "https://mediabiasfactcheck.com/turkey-media-profile/"
+	},
+    "Italy": {
+		"Alpha2": "it",
+		"PressRank": 43,
+		"Profile": "https://mediabiasfactcheck.com/italy-media-profile/"
+	},
+    "Japan": {
+		"Alpha2": "jp",
+		"PressRank": 67
+	},
+    "Malaysia": {
+		"Alpha2": "my",
+		"PressRank": 145
+	},
+    "Mexico": {
+		"Alpha2": "mx",
+		"PressRank": 0
+	},
+    "Singapore": {
+		"Alpha2": "sg",
+		"PressRank": 0
+	},
+    "Belize": {
+		"Alpha2": "bz",
+		"PressRank": 47
+	},
+    "Czech Republic": {
+		"Alpha2": "cz",
+		"PressRank": 40
+	},
+    "Hong Kong": {
+		"Alpha2": "hk",
+		"PressRank": 73
+	},
+    "Ireland": {
+		"Alpha2": "ie",
+		"PressRank": 15
+	},
+    "Iceland": {
+		"Alpha2": "is",
+		"PressRank": 14
+	},
+    "Philippines": {
+		"Alpha2": "ph",
+		"PressRank": 134
+	},
+    "United Arab Emirates": {
+		"Alpha2": "ae",
+		"PressRank": 128
+	},
+    "Puerto Rico (U.S.)": {
+		"Alpha2": "pr",
+		"PressRank": 48
+	},
+    "New Zealand": {
+		"Alpha2": "nz",
+		"PressRank": 7
+	},
+    "Guam (U.S.)": {
+		"Alpha2": "gu",
+		"PressRank": 48
+	},
+    "Egypt": {
+		"Alpha2": "eg",
+		"PressRank": 163
+	},
+    "Denmark": {
+		"Alpha2": "dk",
+		"PressRank": 5
+	},
+    "Norway": {
+		"Alpha2": "no",
+		"PressRank": 1,
+		"Profile": "https://mediabiasfactcheck.com/norway-media-profile/"
+	},
+    "Republic of Korea": {
+		"Alpha2": "kr",
+		"PressRank": 63
+	},
+    "Kenya": {
+		"Alpha2": "ke",
+		"PressRank": 100
+	},
+    "North Macedonia": {
+		"Alpha2": "mk",
+		"PressRank": 95
+	},
+    "Bulgaria": {
+		"Alpha2": "bg",
+		"PressRank": 111
+	},
+    "Islamic Republic of Iran": {
+		"Alpha2": "ir",
+		"PressRank": 170,
+		"Profile": "https://mediabiasfactcheck.com/iran-media-profile/"
+	},
+    "North Korea (DPRK)": {
+		"Alpha2": "kp",
+		"PressRank": 180
+	},
+    "Russia": {
+		"Alpha2": "ru",
+		"PressRank": 149,
+		"Profile": "https://mediabiasfactcheck.com/russia-media-profile/"
+	},
+    "Tanzania": {
+		"Alpha2": "tz",
+		"PressRank": 118
+	},
+    "Albania": {
+		"Alpha2": "al",
+		"PressRank": 82
+	}
+}
