@@ -1,0 +1,39 @@
+{
+
+    "manifest_version": 2,
+    "name": "Media Literacy",
+    "version": "0.1.0",
+
+    "description": "See bias analyses and transparency information about online media outlets.",
+    "homepage_url": "https://github.com/fergusch",
+    "icons": {
+        "48": "icons/check-48.png"
+    },
+
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "activeTab",
+        "storage"
+    ],
+
+    "background": {
+        "scripts": [
+            "vendor/libraries/jquery-3.4.1/jquery.min.js",
+            "src/background.js"
+        ]
+    },
+
+    "browser_action": {
+        "default_icon": "icons/check-32.png",
+        "default_title": "Media Literacy",
+        "default_popup": "ui/popup/popup.html"
+    },
+
+    "applications": {
+        "gecko": {
+            "id": "media-literacy@fergusch"
+        }
+    }
+
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="popup.css"/>
+    </head>
+    <body>
+
+        <script src="../../vendor/libraries/jquery-3.4.1/jquery.min.js"></script>
+        <script src="popup.js"></script>
+
+        <div id="popup">
+
+            <img src="../icons/loading.png" id="loading" />
+
+            <div id="default">
+                No information to report about this site.
+                <hr class="small" />
+                <div class="footer">
+                    v <span class="version"></span><span class="beta">BETA</span>
+                    &nbsp;&bull;&nbsp;
+                    <a target="_blank" href="https://github.com/fergusch/media-literacy/issues">Report an issue</a>
+                </div>
+            </div>
+            
+            <div id="analysis">
+                <table id="outlet" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <img id="ml-logo" src="../../icons/check-32.png" height="20px" />
+                        </td>
+                        <td>
+                            <span id="outlet-name"></span>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="large" />
+                <div class="small-heading">
+                    <div class="tooltip-hover">
+                        <img class="tooltip-info-icon" src="../icons/info-12.png" height="8px" />
+                        <img class="tooltip-triangle" src="../icons/tooltip-triangle.png" />
+                    </div>
+                    <div class="tooltip-body">
+                        Remember that bias ratings are context-dependent and can differ in meaning in different regions of the world.
+                    </div>
+                    Bias rating:
+                </div>
+                <span id="bias-rating"></span><br />
+                <img id="bias-spectrum" class="bias-image" height="33px" />
+                <div id="factuality">
+                    <div class="small-heading">
+                        <div class="tooltip-hover">
+                            <img class="tooltip-info-icon" src="../icons/info-12.png" height="8px" />
+                            <img class="tooltip-triangle" src="../icons/tooltip-triangle.png" />
+                        </div>
+                        <div class="tooltip-body"></div>
+                        Factual reporting:
+                    </div>
+                    <img class="fact-icon" height="20px" />
+                    <span id="factuality-text"></span>
+                </div>
+                <div id="citations">
+                    <div class="small-heading">
+                        <div class="tooltip-hover">
+                            <img class="tooltip-info" src="../icons/info-12.png" height="8px" />
+                            <img class="tooltip-triangle" src="../icons/tooltip-triangle.png" />
+                        </div>
+                        <div class="tooltip-body">
+                            This source has been cited as an untrustworthy source of information for the reasons listed below. See the MBFC analysis for details.
+                        </div>
+                        Cited for:
+                    </div>
+                    <div id="citation-list"></div>
+                </div>
+                <div id="press-rank">
+                    <hr class="large" />
+                    <div class="small-heading">
+                        <div class="tooltip-hover">
+                            <img class="tooltip-info" src="../icons/info-12.png" height="8px" />
+                            <img class="tooltip-triangle" src="../icons/tooltip-triangle.png" />
+                        </div>
+                        <div class="tooltip-body">
+                            Media from countries with low press freedom rankings may be more susceptible to government influence and more likely to publish misinformation or propaganda.
+                        </div>
+                        Country / Press Freedom Rank:
+                    </div>
+                    <img id="country-flag" height="14px"> 
+                    <span id="country-name"></span>
+                    <br />
+                    <div id="ranking">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img id="rank-icon" height="32px" />
+                                </td>
+                                <td>
+                                    <span id="rank-num"></span>
+                                    <span id="out-of">out of 180</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <hr class="small" />
+                <div class="footer">
+                    <a id="mbfc-link">Full analysis on MBFC</a>
+                    v <span class="version"></span><span class="beta">BETA</span>
+                    &nbsp;&bull;&nbsp;
+                    <a target="_blank" href="https://github.com/fergusch/media-literacy/issues">Report an issue</a>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
