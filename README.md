@@ -9,6 +9,7 @@
     - [Layout](#layout)
     - [Icon](#icon)
 - [Installation](#installation)
+    - [Firefox](#firefox)
 - [Contributing](#contributing)
     - [Data corrections](#data-corrections)
     - [New websites](#new-websites)
@@ -44,9 +45,11 @@ This extension is currently in beta, so some features may missing/not working or
 
 ### Icon
 ![](https://i.imgur.com/zmBDlR9.png)
+
 When switching between tabs, the button's icon will change to let you take a quick look at whether the site you're viewing is trustworthy. 
 
 ## Installation
+### Firefox
 [![](https://i.imgur.com/Z4qX74Q.png)](https://addons.mozilla.org/en-US/firefox/addon/media-literacy/)
 
 ## Contributing
