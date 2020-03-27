@@ -47,36 +47,44 @@ function updateIcon(tabId) {
 function checkSite(tabUrl, tabId) {
 
     // fetch website data from the repo
-    $.getJSON('https://gitcdn.link/repo/fergusch/media-literacy/master/data/sites.json', function(sites) {
+    fetch('https://gitcdn.link/repo/fergusch/media-literacy/master/data/sites.json')
 
-        // search through the sites data and check if the current website matches any known sites
-        let site_url = Object.keys(sites).find(s => 
-            RegExp(`^(${s.replace('.', '\\.')}|[a-z0-9]+\\.${s.replace('.', '\\.')})`)
-            .test(tabUrl.replace(/http(s|):\/\/(www\.|)/, ''))
-        )
+        .then((response) => {
+            return response.json();
+        }).then((sites) => {
 
-        if (site_url) {
+            // search through the sites data and check if the current website matches any known sites
+            let site_url = Object.keys(sites).find(s => 
+                RegExp(`^(${s.replace('.', '\\.')}|[a-z0-9]+\\.${s.replace('.', '\\.')})`)
+                .test(tabUrl.replace(/http(s|):\/\/(www\.|)/, ''))
+            )
 
-            // if a match was found, pull the country data for that site and store it
-            $.getJSON('https://gitcdn.link/repo/fergusch/media-literacy/master/data/countries.json', function(countries) {
+            if (site_url) {
 
-                let entry = {};
-                entry[tabId] = {
-                    site: sites[site_url],
-                    country: countries[sites[site_url].Country]
-                }
-                browser.storage.local.set(entry);
+                // if a match was found, pull the country data for that site and store it
+                fetch('https://gitcdn.link/repo/fergusch/media-literacy/master/data/countries.json')
 
-            });
+                    .then((response) => {
+                        return response.json();
+                    }).then((countries) => {
 
-        } else {
+                        let entry = {};
+                        entry[tabId] = {
+                            site: sites[site_url],
+                            country: countries[sites[site_url].Country]
+                        }
+                        browser.storage.local.set(entry);
+                    });
 
-            // no match, remove the record for this tab (if there was one)
-            browser.storage.local.remove(tabId.toString());
+            } else {
 
-        }
+                // no match, remove the record for this tab (if there was one)
+                browser.storage.local.remove(tabId.toString());
 
-    });
+            }
+
+        });
+
 }
 
 /**
