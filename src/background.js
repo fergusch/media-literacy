@@ -162,15 +162,22 @@ browser.tabs.onRemoved.addListener(handleRemoved);
 browser.runtime.onInstalled.addListener(({ reason, temporary }) => {
 
     if (reason == 'install' || reason == 'update') {
+
+        // when installed or updated, run the checker on all tabs
         browser.tabs.query({}).then(tabs => {
             for (let tab of tabs) {
                 checkSite(tab.url, tab.id);
             }
-        })
+        });
+
     }
 
-    // only open the readme on first install
     if (reason == 'install') {
+
+        // set the default preferred storage to local
+        browser.storage.local.set({prefStorageArea: 'local'});
+
+        // open the readme
         browser.tabs.create({ url: 'https://github.com/fergusch/media-literacy#media-literacy' });
     }
     

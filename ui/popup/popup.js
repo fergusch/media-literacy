@@ -9,27 +9,32 @@ function populatePopup(site, country) {
     switch (site.Bias) {
 
         case 'Left-Wing':
-            $('#bias-spectrum').attr('src', '../bias-spectrums/left.png');
+            $('#bias-arrow-top, #bias-arrow-bottom').show();
+            $('.bias-arrow').animate({opacity: 1, left: '-23%'}, 1500, 'easeOutExpo');
             $('#bias-spectrum').show();
             break;
 
         case 'Left-Center':
-            $('#bias-spectrum').attr('src', '../bias-spectrums/left-center.png');
+            $('#bias-arrow-top, #bias-arrow-bottom').show();
+            $('.bias-arrow').animate({opacity: 1, left: '-10%'}, 1500, 'easeOutExpo');
             $('#bias-spectrum').show();
             break;
 
         case 'Neutral':
-            $('#bias-spectrum').attr('src', '../bias-spectrums/neutral.png');
+            $('#bias-arrow-top, #bias-arrow-bottom').show();
+            $('.bias-arrow').animate({opacity: 1, left: '0'}, 500, 'easeOutExpo');
             $('#bias-spectrum').show();
             break;
 
         case 'Right-Center':
-            $('#bias-spectrum').attr('src', '../bias-spectrums/right-center.png');
+            $('#bias-arrow-top, #bias-arrow-bottom').show();
+            $('.bias-arrow').animate({opacity: 1, left: '10%'}, 1500, 'easeOutExpo');
             $('#bias-spectrum').show();
             break;
 
         case 'Right-Wing':
-            $('#bias-spectrum').attr('src', '../bias-spectrums/right.png');
+            $('#bias-arrow-top, #bias-arrow-bottom').show();
+            $('.bias-arrow').animate({opacity: 1, left: '23%'}, 1500, 'easeOutExpo');
             $('#bias-spectrum').show();
             break;
 
@@ -152,13 +157,158 @@ browser.runtime.onMessage.addListener(handleMessage);
  */
 $(document).ready(function() {
 
-    // let the background script know we want some data for the active tab
-    browser.tabs.query({currentWindow: true, active: true})
-        .then(tabs => {
-            browser.runtime.sendMessage({
-                command: 'get site record',
-                tab: tabs[0].id
+    /**
+     * Fired when the user clicks on the preferences icon.
+     * Hides the main content and shows the preferences menu.
+     */
+    $('.pref-icon').click(function() {
+
+        $('#popup').animate({
+            height: $('#preferences-content').height() + 60
+        }, 1000, 'easeOutExpo');
+        $('#popup-content').animate({left: '-50%'}, 1000, 'easeOutExpo');
+        $('#preferences').animate({left: '-50%'}, 1000, 'easeOutExpo');
+
+    });
+
+    /**
+     * Fired when the user clicks the "back" button on the preferences menu.
+     * Hides the menu and returns to the main content.
+     */
+    $('#pref-back').click(function() {
+        $('#popup').animate({
+            height: $('#popup-content').height() + 60
+        }, 1000, 'easeOutExpo');
+        $('#popup-content').animate({left: '0'}, 1000, 'easeOutExpo');
+        $('#preferences').animate({left: '0'}, 1000, 'easeOutExpo');
+    });
+
+    /**
+     * Fired when the user clicks the 'enable dark mode' option.
+     * Automatically changes the theme and saves to preferences.
+     */
+    $('#enable-dark').click(function(e) {
+
+        e.preventDefault();
+
+        if ($(this).find('input[type="checkbox"]').prop('checked')) {
+
+            // set switch to unchecked
+            $(this).find('input[type="checkbox"]').prop('checked', false);
+            $('body').removeClass('dark');
+
+            usePreferredStorageArea(function(storage) {
+                storage.set({prefDark: false});
             });
+
+        } else {
+
+            // set switch to checked
+            $(this).find('input[type="checkbox"]').prop('checked', true);
+            $('body').addClass('dark');
+
+            usePreferredStorageArea(function(storage) {
+                storage.set({prefDark: true});
+            });
+
+        }
+
+    });
+
+    /**
+     * Fired when the user clicks the 'use firefox sync' button.
+     * Automatically saves to preferences.
+     */
+    $('#enable-sync').click(function(e) {
+
+        e.preventDefault();
+
+        if ($(this).find('input[type="checkbox"]').prop('checked')) {
+
+            // set switch to unchecked
+            $(this).find('input[type="checkbox"]').prop('checked', false);
+
+            // get prefs from sync
+            browser.storage.sync.get(['prefDark'])
+                .then(result => {
+
+                    let prefs = {
+                        prefStorageArea: 'local'
+                    };
+
+                    if (result.hasOwnProperty('prefDark')) {
+                        prefs.prefDark = result.prefDark;
+                    }
+
+                    browser.storage.local.set(prefs);
+
+                    browser.storage.sync.remove(['prefStorageArea', 'prefDark']);
+
+                });
+
+        } else {
+
+            // set switch to checked
+            $(this).find('input[type="checkbox"]').prop('checked', true);
+
+            // import preferences into sync
+            browser.storage.local.get(['prefStorageArea', 'prefDark'])
+                .then(result => {
+
+                    if (result.prefStorageArea == 'local') {
+
+                        let prefs = {
+                            prefStorageArea: 'sync'
+                        };
+
+                        if (result.hasOwnProperty('prefDark')) {
+                            prefs.prefDark = result.prefDark;
+                        }
+
+                        browser.storage.sync.set(prefs);
+                        browser.storage.local.set({
+                            prefStorageArea: 'sync'
+                        });
+
+                        browser.storage.local.remove(['prefDark']);
+
+                    }
+
+                });
+
+        }
+
+    });
+
+    // set theme and auto-populate preferences when popup launched
+    browser.storage.local.get('prefStorageArea')
+        .then(result => {
+
+            if (result.prefStorageArea == 'sync') {
+                $('#enable-sync input[type="checkbox"]').prop('checked', true);
+            }
+
+            usePreferredStorageArea(function(storage) {
+
+                storage.get(['prefDark']).then(result => {
+
+                    if (result.hasOwnProperty('prefDark') && result.prefDark) {
+                        $('#enable-dark input[type="checkbox"]').prop('checked', true);
+                        $('body').addClass('dark');
+                    }
+
+                    // let the background script know we're ready for data
+                    browser.tabs.query({currentWindow: true, active: true})
+                    .then(tabs => {
+                        browser.runtime.sendMessage({
+                            command: 'get site record',
+                            tab: tabs[0].id
+                        });
+                    });
+
+                });
+            });
+
         });
 
     // set the version number from manifest.json at the bottom of the popup

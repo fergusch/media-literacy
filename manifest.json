@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "Media Literacy",
-    "version": "0.2.0.dev2",
+    "version": "0.2.0",
 
     "description": "See bias analyses and transparency information about online media outlets.",
     "homepage_url": "https://github.com/fergusch",
@@ -18,7 +18,7 @@
     ],
 
     "background": {
-        "scripts": ["src/background.js"]
+        "scripts": ["src/common.js", "src/background.js"]
     },
 
     "browser_action": {

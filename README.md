@@ -77,9 +77,9 @@ For bug fixes or improvements, feel free to create an issue or pull request and 
 ## To-do list
 - [ ] Crawl / research information about website owners
 - [ ] Explicitly label state-run media or propaganda outlets
-- [ ] Preferences menu
+- [x] Preferences menu `0.2.0`
 - [ ] Option to opt-out of automatic data pulling
-- [ ] Dark theme
+- [x] Dark theme `0.2.0`
 - [ ] Notify the user when they visit a site that fits certain criteria set by them (e.g. questionable source, mixed/low factual reporting, propaganda outlet, etc.)
 - [ ] Inject alerts about low-quality or propaganda outlets into Twitter, Facebook, Reddit, etc.
 - [ ] Port to Chrome and other browsers
@@ -105,7 +105,7 @@ If a query of the database returns a result for the website you're visiting, a c
 
 ### Cloud storage
 
-Future updates will allow for preferences to be set for various features. When this happens, you'll be given the option to sync that data via cloud storage (Firefox Sync or a Google account for Chrome). If you choose to opt-in, then your preference data will be synced via one of those services (if they're enabled). Media Literacy does not have a dedicated server so there's nowhere else for this information to be stored remotely.
+Data from the "Preferences" menu can be synced via cloud storage such as Firefox Sync or with a Google account (on Chrome). If you choose to opt-in, then your preference data will be synced via one of those services (if they're enabled). Media Literacy does not have a dedicated server so there's nowhere else for this information to be stored remotely. If you do not opt-in, this data will be stored locally.
 
 ### Data collection
 Media Literacy collects **absolutely no information** about you or your usage of the software, period. As mentioned, none of your browsing data is ever sent in any remote request, and Media Literacy does not have any remote servers to send data to or store it on.
