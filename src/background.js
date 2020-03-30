@@ -26,6 +26,8 @@ function updateIcon(tabId) {
                                 browser.browserAction.setIcon({path: 'icons/check-orange-32.png'});
                             } else if (factuality == 'Low' || factuality == 'Very low' || bias == 'Questionable Source') {
                                 browser.browserAction.setIcon({path: 'icons/check-red-32.png'});
+                            } else if (bias == 'Satire') {
+                                browser.browserAction.setIcon({path: 'icons/check-satire-32.png'});
                             } else {
                                 browser.browserAction.setIcon({path: 'icons/check-32.png'});
                             }
