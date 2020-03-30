@@ -551,6 +551,14 @@
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/agerpres/"
     },
+    "agu.org": {
+        "Name": "American Geophysical Union (AGU)",
+        "Country": "N/A",
+        "Bias": "Pro-Science",
+        "Factuality": "Very high",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/american-geophysical-union-agu/"
+    },
     "ahtribune.com": {
         "Name": "American Herald Tribune",
         "Country": "Unknown",
@@ -926,14 +934,6 @@
         "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/amarillo-globe-news/"
-    },
-    "cgtn.com": {
-        "Name": "China Global Television Network (CGTN)",
-        "Country": "People's Republic of China",
-        "Bias": "Left-Center",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/china-global-television-network-cgtn/"
     },
     "americablog.com": {
         "Name": "AmericaBlog",
@@ -2383,6 +2383,14 @@
         "QSCitations": "Extreme Right, Propaganda, Conspiracy",
         "MBFCLink": "https://mediabiasfactcheck.com/black-pigeon-speaks/"
     },
+    "blastingnews.com": {
+        "Name": "Blasting News",
+        "Country": "United Kingdom",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/blastingnews/"
+    },
     "bleepingcomputer.com": {
         "Name": "Bleeping Computer",
         "Country": "United States of America",
@@ -3287,6 +3295,14 @@
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/center-for-global-development/"
     },
+    "cgtn.com": {
+        "Name": "China Global Television Network (CGTN)",
+        "Country": "People's Republic of China",
+        "Bias": "Left-Center",
+        "Factuality": "Mixed",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/china-global-television-network-cgtn/"
+    },
     "change.org": {
         "Name": "Change.org",
         "Country": "N/A",
@@ -3854,6 +3870,14 @@
         "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/cnet/"
+    },
+    "cnn.com": {
+        "Name": "CNN",
+        "Country": "United States of America",
+        "Bias": "Left-Wing",
+        "Factuality": "Mixed",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/cnn/"
     },
     "cnsnews.com": {
         "Name": "CNS News",
@@ -5103,6 +5127,14 @@
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/dcreport-org/"
     },
+    "dcstatesman.com": {
+        "Name": "DC Statesman",
+        "Country": "N/A",
+        "Bias": "Right-Wing",
+        "Factuality": "Mixed",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/dc-statesman/"
+    },
     "dcwhispers.com": {
         "Name": "DC Whispers",
         "Country": "N/A",
@@ -5847,14 +5879,6 @@
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/edge-foundation/"
     },
-    "cnn.com": {
-        "Name": "CNN",
-        "Country": "United States of America",
-        "Bias": "Left-Wing",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/cnn/"
-    },
     "edmontonjournal.com": {
         "Name": "Edmonton Journal",
         "Country": "Canada",
@@ -6118,14 +6142,6 @@
         "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/wikinews/"
-    },
-    "timesofsandiego.com": {
-        "Name": "Times of San Diego",
-        "Country": "N/A",
-        "Bias": "Neutral",
-        "Factuality": "High",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/times-san-diego/"
     },
     "encyclopediadramatica.rs": {
         "Name": "Encyclopedia Dramatica",
@@ -8455,6 +8471,14 @@
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/history-news-network/"
     },
+    "hjnews.com": {
+        "Name": "The Herald Journal (Utah)",
+        "Country": "N/A",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/the-herald-journal-utah/"
+    },
     "hoax-slayer.net": {
         "Name": "Hoax Slayer",
         "Country": "Australia",
@@ -9254,14 +9278,6 @@
         "Factuality": "Low",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/intellihub/"
-    },
-    "thenewslens.com": {
-        "Name": "The News Lens",
-        "Country": "N/A",
-        "Bias": "Right-Center",
-        "Factuality": "High",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/the-news-lens/"
     },
     "internationalpolicy.org": {
         "Name": "Center for International Policy",
@@ -11151,14 +11167,6 @@
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/mean-left-hook/"
     },
-    "dcstatesman.com": {
-        "Name": "DC Statesman",
-        "Country": "N/A",
-        "Bias": "Right-Wing",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/dc-statesman/"
-    },
     "mediacircus.com": {
         "Name": "Media Circus",
         "Country": "N/A",
@@ -11630,6 +11638,14 @@
         "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/mondoweiss/"
+    },
+    "mongabay.com": {
+        "Name": "Mongabay",
+        "Country": "N/A",
+        "Bias": "Left-Center",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/mongabay/"
     },
     "monthlyreview.org": {
         "Name": "Monthly Review",
@@ -12494,22 +12510,6 @@
         "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/harvard-gazette/"
-    },
-    "hjnews.com": {
-        "Name": "The Herald Journal (Utah)",
-        "Country": "N/A",
-        "Bias": "Neutral",
-        "Factuality": "High",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/the-herald-journal-utah/"
-    },
-    "mongabay.com": {
-        "Name": "Mongabay",
-        "Country": "N/A",
-        "Bias": "Left-Center",
-        "Factuality": "High",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/mongabay/"
     },
     "news.sky.com": {
         "Name": "Sky News",
@@ -16727,14 +16727,6 @@
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/sioux-city-journal/"
     },
-    "agu.org": {
-        "Name": "American Geophysical Union (AGU)",
-        "Country": "N/A",
-        "Bias": "Pro-Science",
-        "Factuality": "Very high",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/american-geophysical-union-agu/"
-    },
     "skepdic.com": {
         "Name": "The Skeptic’s Dictionary",
         "Country": "N/A",
@@ -19063,6 +19055,14 @@
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/the-news-mexico-city/"
     },
+    "thenewslens.com": {
+        "Name": "The News Lens",
+        "Country": "N/A",
+        "Bias": "Right-Center",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/the-news-lens/"
+    },
     "thenewsliteracyproject.org": {
         "Name": "The News Literacy Project",
         "Country": "N/A",
@@ -19927,6 +19927,14 @@
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/times-of-israel/"
     },
+    "timesofsandiego.com": {
+        "Name": "Times of San Diego",
+        "Country": "N/A",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/times-san-diego/"
+    },
     "timespolice.com": {
         "Name": "Police Times",
         "Country": "N/A",
@@ -20622,14 +20630,6 @@
         "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/urban-institute/"
-    },
-    "blastingnews.com": {
-        "Name": "Blasting News",
-        "Country": "United Kingdom",
-        "Bias": "Neutral",
-        "Factuality": "High",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/blastingnews/"
     },
     "usa-conservative.com": {
         "Name": "The USA Conservative",
@@ -21871,6 +21871,14 @@
         "QSCitations": "Extreme Right, Propaganda, Conspiracy, Some Fake News",
         "MBFCLink": "https://mediabiasfactcheck.com/world-net-daily-wnd/"
     },
+    "wng.org": {
+        "Name": "World Magazine",
+        "Country": "N/A",
+        "Bias": "Right-Wing",
+        "Factuality": "Mixed",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/world-magazine/"
+    },
     "wnyc.org": {
         "Name": "WNYC",
         "Country": "N/A",
@@ -21910,14 +21918,6 @@
         "Factuality": "Mixed",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/workers-world/"
-    },
-    "wng.org": {
-        "Name": "World Magazine",
-        "Country": "N/A",
-        "Bias": "Right-Wing",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
-        "MBFCLink": "https://mediabiasfactcheck.com/world-magazine/"
     },
     "worldaffairsbrief.com": {
         "Name": "World Affairs Brief",
@@ -22278,5 +22278,269 @@
         "Factuality": "N/A",
         "QSCitations": "Extreme Right, Propaganda, Some Fake News",
         "MBFCLink": "https://mediabiasfactcheck.com/zootfeed/"
+    },
+    "seventeen.com": {
+        "Name": "Seventeen",
+        "Country": "United States of America",
+        "Bias": "Left-Wing",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/seventeen/"
+    },
+    "thefingnews.com": {
+        "Name": "The Fucking News",
+        "Country": "N/A",
+        "Bias": "Left-Wing",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/the-fucking-news/"
+    },
+    "kyivpost.com": {
+        "Name": "Kyiv Post",
+        "Country": "Ukraine",
+        "Bias": "Left-Center",
+        "Factuality": "Mixed",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/kyiv-post/"
+    },
+    "repubblica.it": {
+        "Name": "La Repubblica",
+        "Country": "Italy",
+        "Bias": "Left-Center",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/la-repubblica/"
+    },
+    "phillytrib.com": {
+        "Name": "Philadelphia Tribune",
+        "Country": "United States of America",
+        "Bias": "Left-Center",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/philadelphia-tribune/"
+    },
+    "thecity.nyc": {
+        "Name": "The City",
+        "Country": "United States of America",
+        "Bias": "Left-Center",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/the-city/"
+    },
+    "abc12.com": {
+        "Name": "ABC12 News (WJRT)",
+        "Country": "United States of America",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/abc12-news-wjrt/"
+    },
+    "aptnnews.ca": {
+        "Name": "APTN News",
+        "Country": "Canada",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/aptn-news/"
+    },
+    "sunherald.com": {
+        "Name": "Biloxi Sun Herald",
+        "Country": "United States of America",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/biloxi-sun-herald/"
+    },
+    "coronavirus.gov": {
+        "Name": "Coronavirus.gov",
+        "Country": "United States of America",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/coronavirus-gov/"
+    },
+    "covidtracking.com": {
+        "Name": "The Covid Tracking Project",
+        "Country": "United States of America",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/the-covid-tracking-project/"
+    },
+    "elkodaily.com": {
+        "Name": "Elko Daily Free Press",
+        "Country": "United States of America",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/elko-daily-free-press/"
+    },
+    "law.com": {
+        "Name": "Law.com",
+        "Country": "United States of America",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/law-com/"
+    },
+    "newzjunky.com": {
+        "Name": "NewzJunky.com",
+        "Country": "United States of America",
+        "Bias": "Neutral",
+        "Factuality": "Mixed",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/newzjunky-com/"
+    },
+    "southbendtribune.com": {
+        "Name": "South Bend Tribune",
+        "Country": "United States of America",
+        "Bias": "Neutral",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/south-bend-tribune/"
+    },
+    "lubbockonline.com": {
+        "Name": "Lubbock Avalanche Journal",
+        "Country": "United States of America",
+        "Bias": "Right-Center",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/lubbock-avalanche-journal/"
+    },
+    "buzzsawpolitics.com": {
+        "Name": "Buzzsaw Politics",
+        "Country": "United States of America",
+        "Bias": "Right-Wing",
+        "Factuality": "Mostly factual",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/buzzsaw-politics/"
+    },
+    "significancemagazine.com": {
+        "Name": "Significance Magazine",
+        "Country": "N/A",
+        "Bias": "Pro-Science",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/significance-magazine/"
+    },
+    "unenvironment.org": {
+        "Name": "United Nations Environment Programme (UNEP)",
+        "Country": "N/A",
+        "Bias": "Pro-Science",
+        "Factuality": "High",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/united-nations-environment-programme-unep/"
+    },
+    "greenmedinfo.com": {
+        "Name": "GreenMedInfo",
+        "Country": "United States of America",
+        "Bias": "Conspiracy / Pseudoscience",
+        "Factuality": "Low",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/greenmedinfo/"
+    },
+    "3ccorp.net": {
+        "Name": "3CCorp.net",
+        "Country": "United States of America",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Extreme Right, Propaganda, Conspiracy, Poor Sourcing, Failed Fact Check, Lack of Transparency",
+        "MBFCLink": "https://mediabiasfactcheck.com/3ccorp-net/"
+    },
+    "ghost.report": {
+        "Name": "Ghost.Report",
+        "Country": "N/A",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Right, Propaganda, Conspiracy",
+        "MBFCLink": "https://mediabiasfactcheck.com/ghost-report/"
+    },
+    "nbc.com.co": {
+        "Name": "NBC.com.co",
+        "Country": "N/A",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Imposter Site, Fake News",
+        "MBFCLink": "https://mediabiasfactcheck.com/nbc-com-co/"
+    },
+    "newsexaminer.net": {
+        "Name": "NewsExaminer.net",
+        "Country": "N/A",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Fake News",
+        "MBFCLink": "https://mediabiasfactcheck.com/newsexaminer-net/"
+    },
+    "polipace.com": {
+        "Name": "Polipace",
+        "Country": "United States of America",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Extreme Left, Propaganda, Conspiracy",
+        "MBFCLink": "https://mediabiasfactcheck.com/polipace/"
+    },
+    "rightwingtribune.com": {
+        "Name": "Right Wing Tribune",
+        "Country": "United States of America",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Extreme Right, Propaganda, Conspiracy",
+        "MBFCLink": "https://mediabiasfactcheck.com/right-wing-tribune/"
+    },
+    "conservativepapers.com": {
+        "Name": "The Conservative Papers",
+        "Country": "United States of America",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Poor Sourcing, Lack of Transparency, propaganda",
+        "MBFCLink": "https://mediabiasfactcheck.com/the-conservative-papers/"
+    },
+    "thelibertydaily.com": {
+        "Name": "The Liberty Daily",
+        "Country": "United States of America",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Extreme Right, Poor Sourcing, Lack of Transparency",
+        "MBFCLink": "https://mediabiasfactcheck.com/the-liberty-daily/"
+    },
+    "toofab.com": {
+        "Name": "TooFab",
+        "Country": "United States of America",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Lack of Transparency, Poor Sourcing, Sensational Headlines",
+        "MBFCLink": "https://mediabiasfactcheck.com/toofab/"
+    },
+    "yc.news": {
+        "Name": "YourContent",
+        "Country": "United States of America",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Poor Sourcing, Lack of Transparency, Fake News",
+        "MBFCLink": "https://mediabiasfactcheck.com/yourcontent/"
+    },
+    "newyorker.com/humor/borowitz-report": {
+        "Name": "Borowitz Report",
+        "Country": "United States of America",
+        "Bias": "Satire",
+        "Factuality": "N/A",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/borowitz-report/"
+    },
+    "bustatroll.org": {
+        "Name": "Bustatroll.org",
+        "Country": "N/A",
+        "Bias": "Satire",
+        "Factuality": "N/A",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/bustatroll-org/"
+    },
+    "genesiustimes.com": {
+        "Name": "Genesius Times",
+        "Country": "N/A",
+        "Bias": "Satire",
+        "Factuality": "N/A",
+        "QSCitations": "N/A",
+        "MBFCLink": "https://mediabiasfactcheck.com/genesius-times/"
     }
 }

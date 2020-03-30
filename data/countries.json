@@ -204,5 +204,9 @@
     "Albania": {
 		"Alpha2": "al",
 		"PressRank": 82
+	},
+    "Ukraine": {
+		"Alpha2": "ua",
+		"PressRank": 102
 	}
 }
