@@ -54,10 +54,12 @@ function checkSite(tabUrl, tabId) {
         }).then((sites) => {
 
             // search through the sites data and check if the current website matches any known sites
-            let site_url = Object.keys(sites).find(s => 
+            let site_url = Object.keys(sites).sort(function(a, b) {
+                return b.length - a.length // order by length descending
+            }).find(s =>
                 RegExp(`^(${s.replace('.', '\\.')}|[a-z0-9]+\\.${s.replace('.', '\\.')})`)
                 .test(tabUrl.replace(/http(s|):\/\/(www\.|)/, ''))
-            )
+            );
 
             if (site_url) {
 
