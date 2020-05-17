@@ -478,11 +478,19 @@ hr {
         border-top: 1px solid #e2e2e2;
     }
 
+    #preferences .pref-section-subtitle {
+        display: block;
+        margin-top: -4px;
+        margin-bottom: 8px;
+        font-size: 11px;
+        color: #777777;
+    }
+
     #preferences .switch {
         position: relative;
         display: table;
         cursor: pointer;
-        padding: 10px 0;
+        padding: 7px 0;
         width: 100%;
         border-radius: 3px;
         transition: all 0.2s ease;

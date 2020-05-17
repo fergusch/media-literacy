@@ -184,6 +184,96 @@ $(document).ready(function() {
     });
 
     /**
+     * Fired when the user enables notifications for "mixed" factual reporting.
+     * Automatically saves to preferences.
+     */
+    $('#enable-notif-mixed').click(function(e) {
+
+        e.preventDefault();
+
+        if ($(this).find('input[type="checkbox"]').prop('checked')) {
+
+            // set switch to unchecked
+            $(this).find('input[type="checkbox"]').prop('checked', false);
+
+            usePreferredStorageArea(function(storage) {
+                storage.set({prefNotifMixed: false});
+            });
+
+        } else {
+
+            // set switch to checked
+            $(this).find('input[type="checkbox"]').prop('checked', true);
+
+            usePreferredStorageArea(function(storage) {
+                storage.set({prefNotifMixed: true});
+            });
+
+        }
+
+    });
+
+    /**
+     * Fired when the user enables notifications for "low" factual reporting.
+     * Automatically saves to preferences.
+     */
+    $('#enable-notif-low').click(function(e) {
+
+        e.preventDefault();
+
+        if ($(this).find('input[type="checkbox"]').prop('checked')) {
+
+            // set switch to unchecked
+            $(this).find('input[type="checkbox"]').prop('checked', false);
+
+            usePreferredStorageArea(function(storage) {
+                storage.set({prefNotifLow: false});
+            });
+
+        } else {
+
+            // set switch to checked
+            $(this).find('input[type="checkbox"]').prop('checked', true);
+
+            usePreferredStorageArea(function(storage) {
+                storage.set({prefNotifLow: true});
+            });
+
+        }
+
+    });
+
+    /**
+     * Fired when the user enables notifications for questionable sources.
+     * Automatically saves to preferences.
+     */
+    $('#enable-notif-qs').click(function(e) {
+
+        e.preventDefault();
+
+        if ($(this).find('input[type="checkbox"]').prop('checked')) {
+
+            // set switch to unchecked
+            $(this).find('input[type="checkbox"]').prop('checked', false);
+
+            usePreferredStorageArea(function(storage) {
+                storage.set({prefNotifQS: false});
+            });
+
+        } else {
+
+            // set switch to checked
+            $(this).find('input[type="checkbox"]').prop('checked', true);
+
+            usePreferredStorageArea(function(storage) {
+                storage.set({prefNotifQS: true});
+            });
+
+        }
+
+    });
+
+    /**
      * Fired when the user clicks the 'enable dark mode' option.
      * Automatically changes the theme and saves to preferences.
      */
@@ -229,7 +319,7 @@ $(document).ready(function() {
             $(this).find('input[type="checkbox"]').prop('checked', false);
 
             // get prefs from sync
-            browser.storage.sync.get(['prefDark'])
+            browser.storage.sync.get(['prefDark', 'prefNotifMixed', 'prefNotifLow', 'prefNotifQS'])
                 .then(result => {
 
                     let prefs = {
@@ -240,9 +330,24 @@ $(document).ready(function() {
                         prefs.prefDark = result.prefDark;
                     }
 
+                    if (result.hasOwnProperty('prefNotifMixed')) {
+                        prefs.prefNotifMixed = result.prefNotifMixed;
+                    }
+
+                    if (result.hasOwnProperty('prefNotifLow')) {
+                        prefs.prefNotifLow = result.prefNotifLow;
+                    }
+
+                    if (result.hasOwnProperty('prefNotifQS')) {
+                        prefs.prefNotifQS = result.prefNotifQS;
+                    }
+
                     browser.storage.local.set(prefs);
 
-                    browser.storage.sync.remove(['prefStorageArea', 'prefDark']);
+                    browser.storage.sync.remove([
+                        'prefStorageArea', 'prefDark',
+                        'prefNotifMixed', 'prefNotifLow', 'prefNotifQS'
+                    ]);
 
                 });
 
@@ -252,8 +357,10 @@ $(document).ready(function() {
             $(this).find('input[type="checkbox"]').prop('checked', true);
 
             // import preferences into sync
-            browser.storage.local.get(['prefStorageArea', 'prefDark'])
-                .then(result => {
+            browser.storage.local.get([
+                'prefStorageArea', 'prefDark',
+                'prefNotifMixed', 'prefNotifLow', 'prefNotifQS'
+            ]).then(result => {
 
                     if (result.prefStorageArea == 'local') {
 
@@ -265,12 +372,27 @@ $(document).ready(function() {
                             prefs.prefDark = result.prefDark;
                         }
 
+                        if (result.hasOwnProperty('prefNotifMixed')) {
+                            prefs.prefNotifMixed = result.prefNotifMixed;
+                        }
+
+                        if (result.hasOwnProperty('prefNotifLow')) {
+                            prefs.prefNotifLow = result.prefNotifLow;
+                        }
+
+                        if (result.hasOwnProperty('prefNotifQS')) {
+                            prefs.prefNotifQS = result.prefNotifQS;
+                        }
+
                         browser.storage.sync.set(prefs);
                         browser.storage.local.set({
                             prefStorageArea: 'sync'
                         });
 
-                        browser.storage.local.remove(['prefDark']);
+                        browser.storage.local.remove([
+                            'prefStorageArea', 'prefDark',
+                            'prefNotifMixed', 'prefNotifLow', 'prefNotifQS'
+                        ]);
 
                     }
 
@@ -290,11 +412,23 @@ $(document).ready(function() {
 
             usePreferredStorageArea(function(storage) {
 
-                storage.get(['prefDark']).then(result => {
+                storage.get(['prefDark', 'prefNotifMixed', 'prefNotifLow', 'prefNotifQS']).then(result => {
 
                     if (result.hasOwnProperty('prefDark') && result.prefDark) {
                         $('#enable-dark input[type="checkbox"]').prop('checked', true);
                         $('body').addClass('dark');
+                    }
+
+                    if (result.hasOwnProperty('prefNotifMixed') && result.prefNotifMixed) {
+                        $('#enable-notif-mixed input[type="checkbox"]').prop('checked', true);
+                    }
+
+                    if (result.hasOwnProperty('prefNotifLow') && result.prefNotifLow) {
+                        $('#enable-notif-low input[type="checkbox"]').prop('checked', true);
+                    }
+
+                    if (result.hasOwnProperty('prefNotifQS') && result.prefNotifQS) {
+                        $('#enable-notif-qs input[type="checkbox"]').prop('checked', true);
                     }
 
                     // let the background script know we're ready for data
