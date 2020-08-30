@@ -260,5 +260,14 @@
 		"Alpha2": "zw",
 		"PressRank": 126,
 		"Profile": "https://mediabiasfactcheck.com/zimbabwe-media-profile/"
+	},
+	"Saudi Arabia": {
+		"Alpha2": "sa",
+		"PressRank": 170,
+		"Profile": "https://mediabiasfactcheck.com/saudi-arabia-media-profile/"
+	},
+	"Jordan": {
+		"Alpha2": "jo",
+		"PressRank": 128
 	}
 }

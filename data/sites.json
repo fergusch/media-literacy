@@ -137,7 +137,7 @@
     },
     "9news.com.au": {
         "Name": "9 News (Australia)",
-        "Country": "N/A",
+        "Country": "Australia",
         "Bias": "Right-Center",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -153,7 +153,7 @@
     },
     "aa.com.tr": {
         "Name": "Anadolu Agency",
-        "Country": "N/A",
+        "Country": "Turkey",
         "Bias": "Right-Wing",
         "Factuality": "Mixed",
         "QSCitations": "N/A",
@@ -161,7 +161,7 @@
     },
     "aaas.org": {
         "Name": "American Association for the Advancement of Science (AAAS)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -169,7 +169,7 @@
     },
     "aap.org": {
         "Name": "American Academy of Pediatrics",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -369,7 +369,7 @@
     },
     "adaa.org": {
         "Name": "Anxiety and Depression Association of America (ADAA)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -377,7 +377,7 @@
     },
     "adelaidenow.com.au": {
         "Name": "The Advertiser",
-        "Country": "N/A",
+        "Country": "Australia",
         "Bias": "Right-Wing",
         "Factuality": "Mixed",
         "QSCitations": "N/A",
@@ -409,7 +409,7 @@
     },
     "adn.com": {
         "Name": "Alaska Dispatch News",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Left-Center",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -505,7 +505,7 @@
     },
     "afr.com": {
         "Name": "The Australian Financial Review",
-        "Country": "N/A",
+        "Country": "Australia",
         "Bias": "Neutral",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -569,7 +569,7 @@
     },
     "agu.org": {
         "Name": "American Geophysical Union (AGU)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -633,7 +633,7 @@
     },
     "aip.org": {
         "Name": "The American Institute of Physics",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -649,7 +649,7 @@
     },
     "airspacemag.com": {
         "Name": "Air & Space Magazine",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -665,7 +665,7 @@
     },
     "ajaonline.org": {
         "Name": "American Journal of Archaeology",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -681,7 +681,7 @@
     },
     "ajph.aphapublications.org": {
         "Name": "American Journal of Public Health (AJPH)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -729,10 +729,10 @@
     },
     "albawaba.com": {
         "Name": "Al Bawaba",
-        "Country": "N/A",
-        "Bias": "Neutral",
-        "Factuality": "High",
-        "QSCitations": "N/A",
+        "Country": "Jordan",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Lack of Transparency, Propaganda, Censorship, Failed Fact Checks, Poor Sourcing",
         "MBFCLink": "https://mediabiasfactcheck.com/al-bawaba/"
     },
     "albertaviews.ca": {
@@ -817,7 +817,7 @@
     },
     "allianceforscience.cornell.edu": {
         "Name": "Alliance for Science",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -1153,7 +1153,7 @@
     },
     "americanscientist.org": {
         "Name": "American Scientist",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -1449,7 +1449,7 @@
     },
     "apa.org": {
         "Name": "American Psychological Association (APA)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -1489,7 +1489,7 @@
     },
     "aps.org": {
         "Name": "American Physical Society (APS)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -1497,7 +1497,7 @@
     },
     "apsa.org": {
         "Name": "American Psychoanalytic Association",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -1769,7 +1769,7 @@
     },
     "austinchronicle.com": {
         "Name": "The Austin Chronicle",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Left-Wing",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -2489,7 +2489,7 @@
     },
     "bmj.com": {
         "Name": "The BMJ (British Medical Journal)",
-        "Country": "N/A",
+        "Country": "United Kingdom",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -2689,7 +2689,7 @@
     },
     "britannica.com": {
         "Name": "Encyclopedia Britannica",
-        "Country": "N/A",
+        "Country": "United Kingdom",
         "Bias": "Pro-Science",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -3225,7 +3225,7 @@
     },
     "cdc.gov": {
         "Name": "Centers for Disease Control and Prevention (CDC)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -5025,7 +5025,7 @@
     },
     "dailytelegraph.com.au": {
         "Name": "The Daily Telegraph (Australia)",
-        "Country": "N/A",
+        "Country": "Australia",
         "Bias": "Right-Wing",
         "Factuality": "Mixed",
         "QSCitations": "N/A",
@@ -5327,11 +5327,11 @@
         "QSCitations": "Extreme Right, Propaganda, Conspiracy, Hate Group",
         "MBFCLink": "https://mediabiasfactcheck.com/defend-europa/"
     },
-    "defensemaven.io/bluelivesmatter": {
-        "Name": "Blue Lives Matter",
+    "bluelivesmatter.blue": {
+        "Name": "Blue Lives Matter (Police Tribune)",
         "Country": "United States of America",
         "Bias": "Right-Wing",
-        "Factuality": "High",
+        "Factuality": "Mixed",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/blue-lives-matter/"
     },
@@ -5930,8 +5930,8 @@
     "ecowatch.com": {
         "Name": "Ecowatch",
         "Country": "United States of America",
-        "Bias": "Conspiracy / Pseudoscience",
-        "Factuality": "Mixed",
+        "Bias": "Left-Wing",
+        "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/ecowatch/"
     },
@@ -6105,10 +6105,10 @@
     },
     "emirates247.com": {
         "Name": "Emirates 24/7",
-        "Country": "N/A",
-        "Bias": "Left-Center",
-        "Factuality": "High",
-        "QSCitations": "N/A",
+        "Country": "United Arab Emirates",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Pro-State Propaganda, Censorship",
         "MBFCLink": "https://mediabiasfactcheck.com/emirates-247/"
     },
     "empirenews.net": {
@@ -6281,10 +6281,10 @@
     },
     "english.alarabiya.net": {
         "Name": "Al Arabiya",
-        "Country": "N/A",
-        "Bias": "Neutral",
-        "Factuality": "High",
-        "QSCitations": "N/A",
+        "Country": "Saudi Arabia",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Poor Sourcing, Propaganda",
         "MBFCLink": "https://mediabiasfactcheck.com/al-arabiya/"
     },
     "epi.org": {
@@ -6563,7 +6563,7 @@
         "Name": "Being Liberal",
         "Country": "United States of America",
         "Bias": "Left-Wing",
-        "Factuality": "Mostly factual",
+        "Factuality": "Mixed",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/being-liberal/"
     },
@@ -6713,7 +6713,7 @@
     },
     "fas.org": {
         "Name": "Federation of American Scientists (FAS)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -6929,9 +6929,9 @@
     },
     "firstpost.com": {
         "Name": "First Post",
-        "Country": "N/A",
-        "Bias": "Left-Wing",
-        "Factuality": "High",
+        "Country": "India",
+        "Bias": "Right-Center",
+        "Factuality": "Mostly factual",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/first-post/"
     },
@@ -6993,7 +6993,7 @@
     },
     "followthemoney.org": {
         "Name": "National Institute on Money in State Politics",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Neutral",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -7888,11 +7888,11 @@
         "MBFCLink": "https://mediabiasfactcheck.com/goodnewsnetwork/"
     },
     "gop.com": {
-        "Name": "GOP.com",
-        "Country": "N/A",
-        "Bias": "Right-Wing",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
+        "Name": "Republican National Committee (RNC)",
+        "Country": "United States of America",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Propaganda, Numerous Failed Fact Checks",
         "MBFCLink": "https://mediabiasfactcheck.com/gop-com/"
     },
     "gop.gov": {
@@ -8641,7 +8641,7 @@
     },
     "hopkinsmedicine.org": {
         "Name": "Johns Hopkins Medicine",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -8681,7 +8681,7 @@
     },
     "howstuffworks.com": {
         "Name": "HowStuffWorks",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -8747,7 +8747,7 @@
         "Name": "Huffington Post (HuffPost)",
         "Country": "United States of America",
         "Bias": "Left-Wing",
-        "Factuality": "Mostly factual",
+        "Factuality": "Mixed",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/huffington-post/"
     },
@@ -8977,9 +8977,9 @@
     },
     "ijr.com": {
         "Name": "Independent Journal Review",
-        "Country": "N/A",
-        "Bias": "Right-Wing",
-        "Factuality": "High",
+        "Country": "United States of America",
+        "Bias": "Neutral",
+        "Factuality": "Mostly factual",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/independent-journal-review/"
     },
@@ -9170,8 +9170,8 @@
     "indiatoday.intoday.in": {
         "Name": "India Today",
         "Country": "India",
-        "Bias": "Neutral",
-        "Factuality": "High",
+        "Bias": "Right-Center",
+        "Factuality": "Mixed",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/india-today/"
     },
@@ -9713,8 +9713,8 @@
     },
     "japantoday.com": {
         "Name": "Japan Today",
-        "Country": "N/A",
-        "Bias": "Right-Center",
+        "Country": "Japan",
+        "Bias": "Left-Center",
         "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/japan-today/"
@@ -9921,7 +9921,7 @@
     },
     "jstor.org": {
         "Name": "JStor",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -10169,7 +10169,7 @@
     },
     "koreatimes.co.kr": {
         "Name": "The Korea Times",
-        "Country": "N/A",
+        "Country": "Republic of Korea",
         "Bias": "Left-Center",
         "Factuality": "Mixed",
         "QSCitations": "N/A",
@@ -12017,7 +12017,7 @@
     },
     "nasa.gov": {
         "Name": "NASA",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -12041,7 +12041,7 @@
     },
     "nationalacademyofsciences.org": {
         "Name": "National Academy of Sciences (NAS)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -12089,7 +12089,7 @@
     },
     "nationalgeographic.com": {
         "Name": "National Geographic",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -12329,7 +12329,7 @@
     },
     "ncdc.noaa.gov": {
         "Name": "National Centers for Environmental Information (NCEI)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -13049,7 +13049,7 @@
     },
     "nih.gov": {
         "Name": "National Institutes of Health (NIH)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -13089,7 +13089,7 @@
     },
     "noaa.gov": {
         "Name": "National Oceanic and Atmospheric Administration (NOAA)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -13394,9 +13394,9 @@
     "oann.com": {
         "Name": "One America News Network (OAN)",
         "Country": "United States of America",
-        "Bias": "Right-Wing",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Far Right Bias, Poor Sourcing, Conspiracy Theories, Propaganda, Failed Fact Checks",
         "MBFCLink": "https://mediabiasfactcheck.com/one-america-news-network/"
     },
     "oaoa.com": {
@@ -13833,9 +13833,9 @@
     },
     "pacificresearch.org": {
         "Name": "Pacific Research Institute",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Right-Center",
-        "Factuality": "High",
+        "Factuality": "Mostly factual",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/pacific-research-institute/"
     },
@@ -14257,7 +14257,7 @@
     },
     "pnas.org": {
         "Name": "Proceedings of the National Academy of Sciences of the United States of America (PNAS)",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -14521,7 +14521,7 @@
     },
     "popsci.com": {
         "Name": "Popular Science",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -14545,7 +14545,7 @@
     },
     "popularmechanics.com": {
         "Name": "Popular Mechanics",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -14665,10 +14665,10 @@
     },
     "pravdareport.com": {
         "Name": "Pravda Report",
-        "Country": "N/A",
-        "Bias": "Left-Wing",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
+        "Country": "Russia",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Pour Sourcing, State Propaganda, Conspiracy Theories, Fake News",
         "MBFCLink": "https://mediabiasfactcheck.com/pravda-report/"
     },
     "precisionvaccinations.com": {
@@ -16075,7 +16075,7 @@
         "Name": "Right Wing Watch",
         "Country": "United States of America",
         "Bias": "Left-Wing",
-        "Factuality": "Mostly factual",
+        "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/right-wing-watch/"
     },
@@ -16457,7 +16457,7 @@
     },
     "science.energy.gov": {
         "Name": "US Department of Energy – Office of Science",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -16577,7 +16577,7 @@
     },
     "scientificamerican.com": {
         "Name": "Scientific American",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -17041,7 +17041,7 @@
     },
     "smithsonianmag.com": {
         "Name": "Smithsonian Magazine",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "Very high",
         "QSCitations": "N/A",
@@ -17209,7 +17209,7 @@
     },
     "space.com": {
         "Name": "Space.com",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Pro-Science",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -17441,7 +17441,7 @@
     },
     "statesman.com": {
         "Name": "Austin American-Statesman",
-        "Country": "N/A",
+        "Country": "United States of America",
         "Bias": "Left-Center",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -17793,10 +17793,10 @@
     },
     "swarajyamag.com": {
         "Name": "Swarajya",
-        "Country": "N/A",
-        "Bias": "Right-Center",
-        "Factuality": "High",
-        "QSCitations": "N/A",
+        "Country": "India",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Propaganda, Poor Sourcing, Fake News, Failed Fact Checks",
         "MBFCLink": "https://mediabiasfactcheck.com/swarajya/"
     },
     "swissinfo.ch": {
@@ -17857,7 +17857,7 @@
     },
     "taiwannews.com.tw": {
         "Name": "Taiwan News",
-        "Country": "N/A",
+        "Country": "Taiwan (Republic of China)",
         "Bias": "Neutral",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -18017,10 +18017,10 @@
     },
     "teapartypatriots.org": {
         "Name": "Tea Party Patriots",
-        "Country": "N/A",
-        "Bias": "Right-Wing",
-        "Factuality": "High",
-        "QSCitations": "N/A",
+        "Country": "United States of America",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Conspiracy Theories, Pseudoscience, Poor Sourcing, Lack of Transparency, Failed Fact Checks",
         "MBFCLink": "https://mediabiasfactcheck.com/tea-party-patriots/"
     },
     "teapartytribune.com": {
@@ -18257,7 +18257,7 @@
     },
     "theage.com.au": {
         "Name": "The Age (Australia)",
-        "Country": "N/A",
+        "Country": "Australia",
         "Bias": "Left-Center",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -18859,7 +18859,7 @@
         "Name": "The Guardian",
         "Country": "United Kingdom",
         "Bias": "Left-Center",
-        "Factuality": "High",
+        "Factuality": "Mixed",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/the-guardian/"
     },
@@ -18906,7 +18906,7 @@
     "thehill.com": {
         "Name": "The Hill",
         "Country": "United States of America",
-        "Bias": "Right-Center",
+        "Bias": "Neutral",
         "Factuality": "Mostly factual",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/the-hill/"
@@ -19185,7 +19185,7 @@
     },
     "themonthly.com.au": {
         "Name": "The Monthly (Australia)",
-        "Country": "N/A",
+        "Country": "Australia",
         "Bias": "Left-Center",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -20306,9 +20306,9 @@
     "townhall.com": {
         "Name": "Townhall",
         "Country": "United States of America",
-        "Bias": "Right-Wing",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Failed Fact Checks",
         "MBFCLink": "https://mediabiasfactcheck.com/townhall/"
     },
     "tplnews.com": {
@@ -20362,9 +20362,9 @@
     "trendingpolitics.com": {
         "Name": "Trending Politics",
         "Country": "United States of America",
-        "Bias": "Right-Wing",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Extreme Right, Poor Sourcing, Propaganda, Conspiracy, Failed Fact Checks",
         "MBFCLink": "https://mediabiasfactcheck.com/trending-politics/"
     },
     "tri-cityherald.com": {
@@ -20618,8 +20618,8 @@
     "truththeory.com": {
         "Name": "Truth Theory",
         "Country": "United Kingdom",
-        "Bias": "Conspiracy / Pseudoscience",
-        "Factuality": "Mixed",
+        "Bias": "Left-Wing",
+        "Factuality": "High",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/truth-theory/"
     },
@@ -21674,9 +21674,9 @@
     "washingtontimes.com": {
         "Name": "Washington Times",
         "Country": "United States of America",
-        "Bias": "Right-Center",
-        "Factuality": "Mixed",
-        "QSCitations": "N/A",
+        "Bias": "Questionable Source",
+        "Factuality": "N/A",
+        "QSCitations": "Numerous Failed Fact Checks, Poor Sourcing, Lack of Transparency",
         "MBFCLink": "https://mediabiasfactcheck.com/washington-times/"
     },
     "watchdog.org": {
@@ -22124,7 +22124,7 @@
         "Country": "United States of America",
         "Bias": "Questionable Source",
         "Factuality": "N/A",
-        "QSCitations": "Extreme Right, Propaganda, Conspiracy, Some Fake News",
+        "QSCitations": "Extreme Right, Propaganda, Conspiracy, Fake News, Failed Fact Checks",
         "MBFCLink": "https://mediabiasfactcheck.com/world-net-daily-wnd/"
     },
     "wng.org": {
@@ -22217,7 +22217,7 @@
     },
     "worldometers.info": {
         "Name": "Worldometer",
-        "Country": "People's Republic of China",
+        "Country": "United States of America",
         "Bias": "Neutral",
         "Factuality": "High",
         "QSCitations": "N/A",
@@ -22523,7 +22523,7 @@
         "Name": "Zero Hedge",
         "Country": "Bulgaria",
         "Bias": "Conspiracy / Pseudoscience",
-        "Factuality": "Mixed",
+        "Factuality": "Low",
         "QSCitations": "N/A",
         "MBFCLink": "https://mediabiasfactcheck.com/zero-hedge/"
     },
